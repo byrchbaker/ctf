@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+/* Style for the content within the div */
+
+.modal-content h2 {
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    font-family: Michroma;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.modal-content h3 {
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    font-family: Michroma;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.modal-content h4 {
+    font-family: Michroma;
+    font-size: 15px;
+}
+
+.modal-content input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    font-family: Michroma;
+    font-size: 17.5px;
+}
+
+.modal-content .submit-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    height: 2.8rem;
+    width: 7rem;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-family: Michroma;
+    font-size: 17.5px;
+}
+
+
+#close {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: red;
+}
+
+#close:hover {
+    background-color: darkgray;
+} 
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+} 
