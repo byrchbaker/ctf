@@ -15,7 +15,7 @@ const challenges = [
         points: 25,
         answer: 'E.T.',
         example: 'Ex: xxxxxxxxxxx',
-        hint: 'Hint: (Review)',
+        hint: 'Hint: (Test)',
         id: 'c2',
     },
     {
